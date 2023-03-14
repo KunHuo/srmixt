@@ -1,3 +1,10 @@
+#' Coefficients of gWQS regression
+#'
+#' @param object an object from [sr_gwqs] function.
+#' @param ... additional arguments to be passed to the [srmisc::typeset] function.
+#'
+#' @return a data frame.
+#' @export
 sr_gwqs_coefs <- function(object, ...){
 
   exec <- function(x, direction){
