@@ -1,11 +1,11 @@
 Package: srmixt
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Statistical Report in R for gWQS Regression
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: person("Rongrui", "Huo", email = "huorongrui@sr.gxmu.edu.cn",
+                  role = c("aut", "cre"))
+Maintainer: Rongrui Huo <huorongrui@sr.gxmu.edu.cn>
+Description: Statistical Report in R for Generalized Weighted Quantile Sum Regression.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -13,4 +13,5 @@ RoxygenNote: 7.2.3
 Imports: 
     ggplot2,
     gWQS,
+    patchwork,
     srmisc
