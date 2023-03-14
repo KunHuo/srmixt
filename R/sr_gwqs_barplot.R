@@ -1,3 +1,15 @@
+#' Barplot for weights
+#'
+#' @param object an object from [sr_gwqs] function.
+#' @param label logical, whether to show weight values.
+#' @param label.size label szie.
+#' @param label.digits label digits.
+#' @param bar.color bar color.
+#' @param bar.width bar width.
+#' @param ... unused.
+#'
+#' @return a ggplot2 object.
+#' @export
 sr_gwqs_barplot <- function(object,
                             label = FALSE,
                             label.size = 12,
