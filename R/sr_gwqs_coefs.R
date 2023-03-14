@@ -51,7 +51,6 @@ sr_gwqs_coefs <- function(object, ...){
     note <- paste(note, adjusted, sep = "\n")
   }else{
     adjusted <- srmisc::get_var_label(object$data, object$covariates, default = ".name", units = FALSE)
-    print(adjusted)
     adjusted <- paste(adjusted, collapse = ", ")
     adjusted <- sprintf("Models adjusted for %s.", adjusted)
     adjusted <- paste(letters[nrow(out) + 1], adjusted)
